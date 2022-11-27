@@ -1,0 +1,61 @@
+body {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 3vh;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(13, 17, 22);
+}
+
+.container {
+  margin-top: 300px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+  background-color: rgba(22, 27, 34, 255);
+  border: solid 2px #272c33;
+  box-shadow: 0px 0px 50px 0px rgba(114, 60, 198, 0.3);
+  width: 30%;
+  height: 300px;
+  margin-left: 30%;
+  padding: 2% 5% 3% 5%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.dividerImg {
+  display: inline;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+#getData {
+  display: block;
+  margin-left: 40%;
+  width: 60px;
+  padding: 7px;
+  border-radius: 100px;
+  background-color: rgb(114, 60, 198);
+  box-shadow: 0px 0px 10px 10px rgba(114, 60, 198, 0.2);
+  border-color: transparent;
+}
+
+#getData img {
+  height: 30px;
+  margin-top: 5px;
+}
+
+.attribution {
+  position: absolute;
+}
+
+.curAdviceID {
+  color: rgb(114, 60, 198);
+  text-shadow: 0 0 10px rgb(114, 60, 198);
+  font-weight: 100;
+  font-size: 2.5vh;
+  letter-spacing: 3px;
+}
