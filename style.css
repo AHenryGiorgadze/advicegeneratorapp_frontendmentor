@@ -15,7 +15,6 @@ body {
   border-radius: 15px;
 
   width: 30%;
-  height: 300px;
   margin-left: 30%;
   padding: 2% 5% 3% 5%;
 
@@ -30,29 +29,32 @@ body {
   box-shadow: 0px 0px 50px 0px rgba(114, 60, 198, 0.3);
 }
 
-.dividerImg {
-  display: inline;
+.dividerImg img{
   width: 100%;
   padding-top: 30px;
   padding-bottom: 70px;
 }
 
-#getData {
+button {
   position: absolute;
   align-items: center;
   justify-content: center;
   display: flex;
   width: 60px;
   height: 60px;
-  border-radius: 100px;
+  bottom: -30px;
+  border-radius: 50%;
   background-color: rgb(114, 60, 198);
-  box-shadow: 0px 0px 10px 10px rgba(114, 60, 198, 0.2);
+  box-shadow: 0px 0px 10px 10px rgba(114, 60, 198, 0.15);
   border-color: transparent;
 }
 
-#getData img {
+button:hover{
+  filter: drop-shadow(0px 0px 10px 10px rgba(114, 60, 198, 0.2));
+}
+
+button img {
   height: 30px;
-  margin-top: 5px;
 }
 
 .attribution {
