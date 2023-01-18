@@ -13,9 +13,7 @@ body {
   text-align: center;
   color: white;
   border-radius: 15px;
-  background-color: rgba(22, 27, 34, 255);
-  border: solid 2px #272c33;
-  box-shadow: 0px 0px 50px 0px rgba(114, 60, 198, 0.3);
+
   width: 30%;
   height: 300px;
   margin-left: 30%;
@@ -23,6 +21,13 @@ body {
 
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap:  2rem;
+
+  background-color: rgba(22, 27, 34, 255);
+  border: solid 2px #272c33;
+  box-shadow: 0px 0px 50px 0px rgba(114, 60, 198, 0.3);
 }
 
 .dividerImg {
@@ -33,10 +38,12 @@ body {
 }
 
 #getData {
-  display: block;
-  margin-left: 40%;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  display: flex;
   width: 60px;
-  padding: 7px;
+  height: 60px;
   border-radius: 100px;
   background-color: rgb(114, 60, 198);
   box-shadow: 0px 0px 10px 10px rgba(114, 60, 198, 0.2);
